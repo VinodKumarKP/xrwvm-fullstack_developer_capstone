@@ -32,7 +32,7 @@ class CarModel(models.Model):
             MinValueValidator(2015)
         ])
     # Other fields
-    dealer_id = models.IntegerField(null=True)
+    # dealer_id = models.IntegerField(null=True)
     
     def __str__(self):
         return self.name
